@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Example/Example.vcxproj" Id="a22735a6-954e-4c5d-bc0b-9ff670bfdd52" />
+  <Project Path="HeadlessRenderer/HeadlessRenderer.vcxproj" Id="68dfd4e9-e27c-489f-a6a9-fc7f1519c65f" />
+  <Project Path="LiquidHookEx/LiquidHookEx/LiquidHookEx.vcxproj" Id="00b59da1-017f-445c-ac10-87928d2e1d87" />
+</Solution>

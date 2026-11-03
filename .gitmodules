@@ -1,0 +1,6 @@
+[submodule "HeadlessRenderer/Libraries/imgui"]
+	path = HeadlessRenderer/Libraries/imgui
+	url = git@github.com:ocornut/imgui.git
+[submodule "LiquidHookEx"]
+	path = LiquidHookEx
+	url = git@github.com:xsip/LiquidHookEx.git
