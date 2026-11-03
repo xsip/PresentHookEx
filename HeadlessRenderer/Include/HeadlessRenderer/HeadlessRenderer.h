@@ -14,7 +14,7 @@ struct SharedOverlayHandshake {
     DWORD   producerPid;
 };
 
-class OVERLAY_API HeadlessRenderer {
+class HeadlessRenderer {
 private:
     static void ResolveResolution(HWND hwnd, UINT fallbackW, UINT fallbackH);
 public:

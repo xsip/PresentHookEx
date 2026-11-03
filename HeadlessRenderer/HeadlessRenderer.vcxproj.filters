@@ -53,9 +53,6 @@
     <ClCompile Include="Libraries\imgui\backends\imgui_impl_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\HeadlessRenderer\Definitions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Libraries\imgui\imgui_demo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

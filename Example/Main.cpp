@@ -5,9 +5,6 @@ int main() {
 	LiquidHookEx::INIT(szExe);
 
 	RenderObjectManager renderObjectManager{ {} };
-	OverlayAPI::InitImGuiContext();
-
-
 	HeadlessRenderer::Start(&renderObjectManager, LiquidHookEx::proc->GetHwnd(), 1920, 1080);
 
 	while (!HeadlessRenderer::IsReady()) Sleep(1);
