@@ -1,6 +1,9 @@
 ![PresentHookEx header](header.png)
 
 # PresentHookEx [Preview On Youtube](https://www.youtube.com/watch?v=y_eP96DWTU4)
+
+The DX12 solution is maintained separately in the [PresentHookEx-DX12 repository](https://github.com/xsip/PresentHookEx-DX12).  
+
 An external Direct3D 11 Present-hook example built with [LiquidHookEx](https://github.com/xsip/LiquidHookEx/blob/main/README.md). The example creates a headless ImGui renderer in the injector process, shares its rendered texture with the target process, and composites that texture from an `IDXGISwapChain::Present` hook.
 
 The hook supports two ways to select its Present target: pass an `IDXGISwapChain*` to `LiquidHookEx::Present::Hook(pSwapChain)`, or call `LiquidHookEx::Present::Hook()` to automatically create and use a temporary dummy DX11 swapchain in the selected target process. The example does not look up a game overlay DLL or depend on a particular game's modules.
